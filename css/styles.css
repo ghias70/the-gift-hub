@@ -1544,6 +1544,27 @@ dialog::backdrop {
 
   .product-grid {
     grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .product-card {
+    padding: 8px 8px 12px;
+  }
+
+  .product-card img {
+    height: 120px;
+    object-fit: contain;
+    background: #fff;
+  }
+
+  .product-card h3 {
+    font-size: 0.84rem;
+  }
+
+  .details-btn {
+    width: 100%;
+    min-height: 36px;
+    font-size: 0.82rem;
   }
 
   .logo img {
@@ -1586,9 +1607,12 @@ dialog::backdrop {
     width: min(var(--max), calc(100% - 28px));
   }
 
-  .product-grid,
   .feature-grid {
     grid-template-columns: 1fr;
+  }
+
+  .product-card img {
+    height: 108px;
   }
 
   .hero h1,
