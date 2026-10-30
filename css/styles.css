@@ -1491,17 +1491,18 @@ dialog::backdrop {
 
   .hero-card {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     min-height: 0;
   }
 
   .hero-photo {
     position: relative;
-    height: 240px;
-    object-position: center 60%;
+    height: 250px;
+    object-position: 70% 42%;
   }
 
-  .hero-card::after {
+  .hero-card::after,
+  .hero h1::before {
     display: none;
   }
 
@@ -1510,11 +1511,21 @@ dialog::backdrop {
     inset: auto;
     display: block;
     width: min(var(--max), calc(100% - 40px));
-    padding: 28px 0 32px;
+    margin-inline: auto;
+    padding: 22px 0 32px;
   }
 
   .hero h1 {
-    font-size: clamp(2.4rem, 8vw, 3.4rem);
+    font-size: clamp(2.15rem, 8vw, 2.8rem);
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
   }
 
   .occasion-card::after {
@@ -1540,11 +1551,22 @@ dialog::backdrop {
   }
 
   .hero-photo {
-    height: 200px;
+    height: 210px;
   }
 
   .hero-content {
-    padding: 20px 0 24px;
+    padding: 20px 0 28px;
+  }
+
+  .trust-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin: 16px 0 18px;
+  }
+
+  .hero-lead {
+    font-size: 1rem;
   }
 
   .spark {
