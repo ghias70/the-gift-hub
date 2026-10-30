@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Gift Hub | Toys, Electronics & Gifts | Caledonian Road</title>
+  <meta name="description" content="The Gift Hub at 302 Caledonian Road, London N1 1BB. Kids' toys, electronics and gift items. Call 020 7700 1711.">
+  <link rel="icon" href="assets/logo/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="assets/logo/favicon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/logo/favicon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800;900&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="is-loading">
+  <div class="page-loader" id="page-loader" role="status" aria-live="polite">
+    <div class="page-loader__stage">
+      <div class="page-loader__gift" aria-hidden="true">
+        <span class="page-loader__spark page-loader__spark--a"></span>
+        <span class="page-loader__spark page-loader__spark--b"></span>
+        <span class="page-loader__spark page-loader__spark--c"></span>
+        <span class="page-loader__bow"></span>
+        <span class="page-loader__lid"></span>
+        <span class="page-loader__box"></span>
+      </div>
+      <p class="page-loader__name">The Gift Hub</p>
+      <p class="page-loader__note">Wrapping something special</p>
+      <span class="page-loader__track" aria-hidden="true"><span></span></span>
+    </div>
+  </div>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-bar">
+      <a class="logo" href="#home" data-category="all">
+        <img src="assets/logo/logo.svg" alt="The Gift Hub" width="266" height="54">
+      </a>
+
+      <nav class="nav" id="site-nav" aria-label="Primary">
+        <a href="#home" data-category="all">Home</a>
+        <a href="#picks" data-category="toys">Kids' Toys</a>
+        <a href="#picks" data-category="electronics">Electronics</a>
+        <a href="#picks" data-category="gifts">Gift Items</a>
+        <a href="#picks" data-category="new">New Arrivals</a>
+        <a href="#visit">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="search-toggle" type="button" aria-expanded="false" aria-controls="search-panel">
+          <span class="icon icon-search" aria-hidden="true"></span>
+          <span class="visually-hidden">Search products</span>
+        </button>
+        <a class="icon-btn icon-btn--account" href="#visit" title="Visit our store">
+          <span class="icon icon-account" aria-hidden="true"></span>
+          <span class="visually-hidden">Account — visit our store</span>
+        </a>
+        <a class="icon-btn" href="#visit" title="Visit our store">
+          <span class="icon icon-cart" aria-hidden="true"></span>
+          <span class="visually-hidden">Basket — visit our store</span>
+        </a>
+        <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="icon icon-menu" aria-hidden="true"></span>
+          <span class="visually-hidden">Open menu</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="search-panel" id="search-panel" hidden>
+      <form class="container search-form" role="search">
+        <label class="visually-hidden" for="product-search">Search products</label>
+        <span class="icon icon-search" aria-hidden="true"></span>
+        <input id="product-search" type="search" placeholder="Search toys, electronics and gifts" enterkeyhint="search" autocomplete="off">
+        <button class="text-btn" id="search-clear" type="button">Clear</button>
+      </form>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-card">
+        <img class="hero-photo" src="assets/images/hero/hero-cozy.jpg" alt="" width="1024" height="576">
+        <div class="hero-content">
+          <h1 id="hero-title">Find a Little<br>Something <span class="hero-accent">Special<svg class="spark" viewBox="0 0 64 64" aria-hidden="true"><path fill="#ffd21f" d="M32 2l4.2 18.2L54 14l-10.4 15.2L62 32l-18.4 2.8L50 54l-16.2-10.2L32 62l-1.8-18.2L14 50l6.4-19.2L2 32l18.6-2.8L14 14l13.8 6.2z"/></svg></span></h1>
+          <p class="hero-lead">Kids' toys, electronics and thoughtful gifts for every occasion.</p>
+          <ul class="trust-list">
+            <li>
+              <svg class="trust-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 5h12v12H2zM14 9h4l4 4v4h-8z"/><circle cx="6" cy="19" r="2"/><circle cx="18" cy="19" r="2"/></svg>
+              <span>Great<br>Range</span>
+            </li>
+            <li>
+              <svg class="trust-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 20 5v6c0 5-3.5 8.5-8 11-4.5-2.5-8-6-8-11V5z"/><path d="m8 12 3 3 5-6"/></svg>
+              <span>Quality<br>Products</span>
+            </li>
+            <li>
+              <svg class="trust-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="10" width="18" height="11" rx="1"/><path d="M2 7h20v4H2zM12 7v14M12 7C4 7 4 1 8 2c3 1 4 5 4 5Zm0 0c8 0 8-6 4-5-3 1-4 5-4 5Z"/></svg>
+              <span>Perfect for<br>Every Occasion</span>
+            </li>
+          </ul>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#picks" data-category="all">
+              Shop Now
+              <span class="icon icon-arrow" aria-hidden="true"></span>
+            </a>
+            <a class="btn btn-outline" href="#visit">
+              <span class="icon icon-location" aria-hidden="true"></span>
+              Visit Our Store
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="categories" aria-labelledby="category-title">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="category-title">Shop by Category</h2>
+          <p>Explore our wide range of products for all ages and occasions.</p>
+        </header>
+        <div class="category-grid">
+          <article class="category-card category-card--toys" data-category="toys">
+            <a class="category-card__link" href="#picks" data-category="toys">
+              <img src="assets/images/categories/category-toys.jpg" alt="Teddy bear, stacking toy and toy car" width="640" height="480">
+              <div class="category-card__body">
+                <div>
+                  <h3>Kids' Toys</h3>
+                  <p>From educational toys to everyday favourites.</p>
+                </div>
+                <span class="circle-arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+              </div>
+            </a>
+          </article>
+          <article class="category-card category-card--electronics" data-category="electronics">
+            <a class="category-card__link" href="#picks" data-category="electronics">
+              <img src="assets/images/categories/category-electronics.jpg" alt="Headphones, phone, smartwatch and earbuds" width="640" height="480">
+              <div class="category-card__body">
+                <div>
+                  <h3>Electronics</h3>
+                  <p>Latest gadgets and must-have tech.</p>
+                </div>
+                <span class="circle-arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+              </div>
+            </a>
+          </article>
+          <article class="category-card category-card--gifts" data-category="gifts">
+            <a class="category-card__link" href="#picks" data-category="gifts">
+              <img src="assets/images/categories/category-gifts.jpg" alt="Wrapped gifts, heart mug and a small plant" width="640" height="480">
+              <div class="category-card__body">
+                <div>
+                  <h3>Gift Items</h3>
+                  <p>Perfect gifts for birthdays, celebrations and more.</p>
+                </div>
+                <span class="circle-arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section why" id="why" aria-labelledby="why-title">
+      <div class="container">
+        <div class="why-panel">
+          <span class="why-spark why-spark--left" aria-hidden="true"><i></i></span>
+          <span class="why-spark why-spark--right" aria-hidden="true"><i></i></span>
+          <header class="section-head section-head--light">
+            <h2 id="why-title">Why Shop at The Gift Hub?</h2>
+            <p>Your local destination for toys, electronics and gifts.</p>
+          </header>
+          <ul class="feature-grid">
+            <li>
+              <svg class="feature-svg feature-svg--red" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="10" width="18" height="11" rx="1"/><path d="M2 7h20v4H2zM12 7v14M12 7C4 7 4 1 8 2c3 1 4 5 4 5Zm0 0c8 0 8-6 4-5-3 1-4 5-4 5Z"/></svg>
+              <h3>Wide Range</h3>
+              <p>Toys, electronics and gift items for all ages.</p>
+            </li>
+            <li>
+              <svg class="feature-svg feature-svg--yellow" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="5.5"/><path d="M9.2 14.2 8 21l4-2.2L16 21l-1.2-6.8"/><path d="m12 6.4 1 2.1 2.3.3-1.7 1.6.4 2.3L12 11.6 9.9 12.7l.4-2.3-1.7-1.6 2.3-.3z"/></svg>
+              <h3>Quality Products</h3>
+              <p>Carefully selected brands and trusted quality.</p>
+            </li>
+            <li>
+              <svg class="feature-svg feature-svg--green" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10 5.2 4h13.6L21 10"/><path d="M4 10h16v9H4z"/><path d="M9 19v-5h6v5"/><path d="M3 10c.6 1.4 1.8 2 3 2s2.2-.8 3-2c.8 1.2 1.8 2 3 2s2.2-.8 3-2c.8 1.2 1.8 2 3 2s2.4-.6 3-2"/></svg>
+              <h3>Local Store</h3>
+              <p>Visit us on Caledonian Road, London N1 1BB.</p>
+            </li>
+            <li>
+              <svg class="feature-svg feature-svg--blue" viewBox="0 0 24 24" aria-hidden="true"><circle cx="7.5" cy="9" r="2.1"/><circle cx="16.5" cy="9" r="2.1"/><circle cx="12" cy="8" r="2.4"/><path d="M3.8 19c.4-2.5 1.9-3.8 3.9-3.8"/><path d="M20.2 19c-.4-2.5-1.9-3.8-3.9-3.8"/><path d="M8.2 19c.5-2.7 1.8-4 3.8-4s3.3 1.3 3.8 4"/></svg>
+              <h3>Friendly Service</h3>
+              <p>Helpful advice and great customer support.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section picks" id="picks" aria-labelledby="picks-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Featured products</p>
+          <h2 id="picks-title">Popular Picks</h2>
+          <p>Some of our most loved toys, gadgets and gift items.</p>
+        </header>
+        <div class="picks-toolbar">
+          <p id="product-status" aria-live="polite">Showing all products</p>
+          <button class="text-btn" id="clear-filters" type="button" hidden>Show all</button>
+        </div>
+        <div class="product-grid" id="product-grid">
+          <article class="product-card" data-name="LEGO City Fire Truck" data-category="toys" data-new="false" data-price="£24.99" data-blurb="A colourful fire truck set for imaginative play.">
+            <img src="assets/images/products/product-1.jpg" alt="LEGO City Fire Truck set" width="480" height="480">
+            <h3>LEGO City Fire Truck</h3>
+            <p class="price">£24.99</p>
+            <button class="details-btn" type="button">View Details</button>
+          </article>
+          <article class="product-card" data-name="Remote Control Car" data-category="toys" data-new="true" data-price="£19.99" data-blurb="A speedy red racer for playtime at home.">
+            <img src="assets/images/products/product-2.jpg" alt="Red remote control car" width="480" height="480">
+            <h3>Remote Control Car</h3>
+            <p class="price">£19.99</p>
+            <button class="details-btn" type="button">View Details</button>
+          </article>
+          <article class="product-card" data-name="Wireless Headphones" data-category="electronics" data-new="true" data-price="£29.99" data-blurb="Comfortable wireless headphones for music and calls.">
+            <img src="assets/images/products/product-3.jpg" alt="Black wireless headphones" width="480" height="480">
+            <h3>Wireless Headphones</h3>
+            <p class="price">£29.99</p>
+            <button class="details-btn" type="button">View Details</button>
+          </article>
+          <article class="product-card" data-name="Kids Tablet" data-category="electronics" data-new="true" data-price="£49.99" data-blurb="A sturdy kids' tablet in a protective blue case.">
+            <img src="assets/images/products/product-4.jpg" alt="Blue kids tablet" width="480" height="480">
+            <h3>Kids Tablet</h3>
+            <p class="price">£49.99</p>
+            <button class="details-btn" type="button">View Details</button>
+          </article>
+          <article class="product-card" data-name="Gift Mug Set" data-category="gifts" data-new="false" data-price="£12.99" data-blurb="A heart-print mug with gift wrap, ready to give.">
+            <img src="assets/images/products/product-5.jpg" alt="Gift mug with present and gift bag" width="480" height="480">
+            <h3>Gift Mug Set</h3>
+            <p class="price">£12.99</p>
+            <button class="details-btn" type="button">View Details</button>
+          </article>
+        </div>
+        <p class="empty-note" id="empty-note" hidden>No products match that search. Try another word, or visit the store and we will help you find something.</p>
+      </div>
+    </section>
+
+    <section class="section occasion" id="occasions" aria-labelledby="occasion-title">
+      <div class="container">
+        <div class="occasion-card">
+          <img class="occasion-photo" src="assets/images/banners/banner-occasions.jpg" alt="">
+          <span class="occasion-spark" aria-hidden="true"></span>
+          <div class="occasion-copy">
+            <h2 id="occasion-title">Gifts for<br><span class="occasion-accent">Every</span> Occasion</h2>
+            <p>Birthdays, holidays, celebrations and more — we have the perfect gift.</p>
+            <a class="btn btn-navy" href="#picks" data-category="gifts">
+              Explore Gift Items
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section brands" id="brands" aria-labelledby="brands-title">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="brands-title">Popular Brands</h2>
+          <p>Quality products from trusted brands.</p>
+        </header>
+        <ul class="brand-list" aria-label="Popular brands">
+          <li class="brand brand--lego">LEGO</li>
+          <li class="brand brand--ps">PlayStation</li>
+          <li class="brand brand--nintendo">Nintendo</li>
+          <li class="brand brand--sony">SONY</li>
+          <li class="brand brand--jbl">JBL</li>
+          <li class="brand brand--apple">Apple</li>
+          <li class="brand brand--samsung">SAMSUNG</li>
+          <li class="brand brand--vtech">VTech</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section visit" id="visit" aria-labelledby="visit-title">
+      <div class="container visit-grid">
+        <figure class="visit-photo">
+          <img src="assets/images/store/store-front.jpg" alt="The Gift Hub shopfront at 302 Caledonian Road" width="1024" height="576">
+        </figure>
+        <div class="visit-copy">
+          <p class="eyebrow">Visit our store</p>
+          <h2 id="visit-title">Come and Say Hello!</h2>
+          <p class="visit-lead">We're located on Caledonian Road, London. Visit our store to explore our full range of toys, electronics and gifts.</p>
+          <address class="visit-address">
+            The Gift Hub<br>
+            302 Caledonian Road<br>
+            London N1 1BB
+          </address>
+          <a class="visit-phone" href="tel:+442077001711">020 7700 1711</a>
+          <p class="visit-hours">Mon – Sat: 9:00am – 6:00pm<br>Sun: 10:00am – 5:00pm</p>
+          <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&amp;query=302+Caledonian+Road,+London+N1+1BB" target="_blank" rel="noopener noreferrer">Get Directions</a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="map-wrap">
+          <iframe
+            class="map-frame"
+            title="Map of The Gift Hub, 302 Caledonian Road, London N1 1BB"
+            src="https://maps.google.com/maps?q=302%20Caledonian%20Road%2C%20London%20N1%201BB&amp;hl=en&amp;z=16&amp;output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/logo/logo.svg" alt="The Gift Hub" width="230" height="47">
+        <p>Your local store for kids' toys, electronics and gift items. Quality products, friendly service and something for everyone.</p>
+        <div class="socials" aria-label="Social media">
+          <span class="social" title="Facebook">
+            <span class="icon icon-facebook" aria-hidden="true"></span>
+            <span class="visually-hidden">Facebook</span>
+          </span>
+          <span class="social" title="Instagram">
+            <span class="icon icon-instagram" aria-hidden="true"></span>
+            <span class="visually-hidden">Instagram</span>
+          </span>
+        </div>
+      </div>
+      <div>
+        <h2>Quick Links</h2>
+        <ul class="footer-links">
+          <li><a href="#picks" data-category="toys">Kids' Toys</a></li>
+          <li><a href="#picks" data-category="electronics">Electronics</a></li>
+          <li><a href="#picks" data-category="gifts">Gift Items</a></li>
+          <li><a href="#picks" data-category="new">New Arrivals</a></li>
+          <li><a href="#visit">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contact Us</h2>
+        <ul class="footer-contact">
+          <li>
+            <span class="icon icon-location" aria-hidden="true"></span>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=302+Caledonian+Road,+London+N1+1BB" target="_blank" rel="noopener noreferrer">302 Caledonian Road<br>London N1 1BB</a>
+          </li>
+          <li>
+            <span class="icon icon-phone" aria-hidden="true"></span>
+            <a href="tel:+442077001711">020 7700 1711</a>
+          </li>
+          <li>
+            <span class="icon icon-account" aria-hidden="true"></span>
+            <a href="mailto:info@thegifthub.co.uk">info@thegifthub.co.uk</a>
+          </li>
+          <li>
+            <span class="icon icon-clock" aria-hidden="true"></span>
+            <span>Mon – Sat: 9:00am – 6:00pm<br>Sun: 10:00am – 5:00pm</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <div class="container footer-bar__inner">
+        <p>© 2026 The Gift Hub. All rights reserved.</p>
+        <p>
+          <a href="#picks" data-category="toys">Toys</a>
+          <span aria-hidden="true">·</span>
+          <a href="#picks" data-category="electronics">Electronics</a>
+          <span aria-hidden="true">·</span>
+          <a href="#picks" data-category="gifts">Gift Items</a>
+          <span aria-hidden="true">·</span>
+          Caledonian Road, London N1
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <dialog id="product-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-card">
+      <button class="dialog-close" id="dialog-close" type="button">Close</button>
+      <img id="dialog-image" alt="" width="480" height="360">
+      <p class="eyebrow" id="dialog-kicker"></p>
+      <h3 id="dialog-title"></h3>
+      <p class="price" id="dialog-price"></p>
+      <p id="dialog-blurb"></p>
+      <p class="dialog-note">See it in store at 302 Caledonian Road, or call <a href="tel:+442077001711">020 7700 1711</a>.</p>
+      <a class="btn btn-primary" href="#visit" id="dialog-visit">Visit our store</a>
+    </div>
+  </dialog>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
